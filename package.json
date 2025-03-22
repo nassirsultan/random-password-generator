@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Random Password Generator",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build src/index.html",
+    "obfuscate": "javascript-obfuscator dist --output dist-obfuscated --compact true --self-defending true",
+    "build:secure": "npm run build && npm run obfuscate"
   },
   "author": "Nassir Sultan",
   "license": "ISC",
   "devDependencies": {
+    "javascript-obfuscator": "^4.1.1",
     "parcel": "^2.14.1"
   }
 }
