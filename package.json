@@ -1,0 +1,14 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "Random Password Generator",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Nassir Sultan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.1"
+  }
+}
