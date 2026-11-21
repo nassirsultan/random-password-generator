@@ -3,7 +3,7 @@
 
 A clean, minimal client-side web application that generates strong random passwords instantly. Built with vanilla JavaScript, HTML, and CSS — no frameworks or backend required.
 
-## 🚀 Live Demo
+## Live Demo
 
 [https://random-password-io.netlify.app](https://random-password-io.netlify.app)
 
